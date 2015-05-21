@@ -13,6 +13,6 @@
     "hubot-slack-taboo": "git://github.com/knjcode/hubot-slack-taboo.git#develop"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.11.x"
   }
 }
