@@ -13,6 +13,7 @@ deploy:
   on:
     repo: knjcode/exbot
     branch: bluemix-exbot
+sudo: required
 cache:
   directories:
   - node_modules
