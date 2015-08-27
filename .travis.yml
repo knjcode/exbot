@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  edge: true
+  provider: cloudfoundry
+  api: https://api.ng.bluemix.net
+  username: knjcode@gmail.com
+  password:
+    secure: aV+GSSsJdvLUhanz5FWnpBwjoQta+VVId0L+J46dsqWYlvJXAZERUZ5Ap1Xe/eqYvJOhqM4QJi0d2+eBKbeLyjeFxX1Wa2Wuehh9dBelu/bckq7aw5GGi68xZUUo0DZFHZJz9nCJHlXd9TrpG9FLppNzr40tICvDM7I6sOoBUhw=
+  organization: knjcode@gmail.com
+  space: dev
+  on:
+    repo: knjcode/exbot
+    branch: bluemix-exbot
+cache:
+  directories:
+  - node_modules
