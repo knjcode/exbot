@@ -8,8 +8,8 @@ deploy:
   username: knjcode@gmail.com
   password:
     secure: aV+GSSsJdvLUhanz5FWnpBwjoQta+VVId0L+J46dsqWYlvJXAZERUZ5Ap1Xe/eqYvJOhqM4QJi0d2+eBKbeLyjeFxX1Wa2Wuehh9dBelu/bckq7aw5GGi68xZUUo0DZFHZJz9nCJHlXd9TrpG9FLppNzr40tICvDM7I6sOoBUhw=
-  organization: knjcode@gmail.com
-  space: dev
+  organization: prototype-cafe
+  space: production
   on:
     repo: knjcode/exbot
     branch: bluemix-exbot
